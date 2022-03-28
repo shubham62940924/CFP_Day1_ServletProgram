@@ -6,7 +6,8 @@
 </head>
 <body>
 <h3>Hi <%= request.getAttribute("user") %> , Login successful.</h3>
-<a href="login.html">Login Page</a>
+<h4>Valid Password Entered</h4>
+<a href="login.html">Back to Login Page</a>
 </body>
 
 </html>
